@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Lesson4BackendDemo" />
+        <module name="Lesson4ErrorHandlingDemo" />
+        <module name="lab3-part1-2" />
+        <module name="Lesson4ValidationDemo" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Lesson4BackendDemo" options="-parameters" />
+      <module name="Lesson4ErrorHandlingDemo" options="-parameters" />
+      <module name="Lesson4ValidationDemo" options="-parameters" />
+      <module name="lab3-part1-2" options="-parameters" />
+    </option>
+  </component>
+</project>

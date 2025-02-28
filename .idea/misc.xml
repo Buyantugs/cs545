@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Lab1/Lab1SpringMVC/pom.xml" />
+        <option value="$PROJECT_DIR$/Lab1/Lab1ServletCalculator/pom.xml" />
+        <option value="$PROJECT_DIR$/Lab2/Lesson2PRGDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Lab2/Lesson2CarsDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Lab2/Lesson2NavigationDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Lab2/Lesson2ValidationDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Lab2/Lesson2PRGSolutionDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Lab2/Lesson2StudentFormDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Lab2/Lesson2StudentFormWithCommandDemo/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="openjdk-20" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

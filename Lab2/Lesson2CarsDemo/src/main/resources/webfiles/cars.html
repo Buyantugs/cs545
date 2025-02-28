@@ -1,0 +1,26 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head><meta charset="UTF-8"><title>Cars</title></head>
+<body>
+<div id="header">
+    <h2>List of cars</h2>
+</div>
+    <table class="datatable" border="1">
+        <tr><th>License</th><th>Make</th><th>Model</th></tr>
+        <tr th:each="car : ${carList}">
+            <td th:text="${car.license}">license</td>
+            <td th:text="${car.make}">make</td>
+            <td th:text="${car.model}">model</td>
+            <td>
+                <form action="removecar" method="post">
+                    <button type="submit" name="licence" th:value="${car.license}">Remove car</button>
+                </form>
+            </td>
+        </tr>
+    </table>
+    <br/>
+    <form action="addcar" method="post">
+        <button type="submit">Add car</button>
+    </form>
+
+</body>
+</html>

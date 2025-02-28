@@ -1,0 +1,40 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shoping Cart</title>
+</head>
+<body>
+<div> <h2> Your shopping cart</h2> </div>
+<table class="carttable" border="1">
+  <tr>
+    <th>Quantity</th>
+    <th>Product number</th>
+    <th>Name</th>
+    <th>Price</th>
+    <th>Total</th>
+  </tr>
+    <tr th:each="cart : ${cartList}">
+        <td th:text="${cart.quantity}">quantity</td>
+        <td th:text="${cart.product.serial}">serial</td>
+        <td th:text="${cart.product.name}">name</td>
+        <td th:text="${cart.product.price}">price</td>
+        <td th:text="${cart.product.price* cart.quantity}">total</td>
+        <td>
+            <form action="removecart" method="post">
+                <button type="submit" name="serial" th:value="${cart.product.serial}">Remove</button>
+            </form>
+        </td>
+    </tr>
+</table>
+<br/>
+<div>
+    <h2>Total: </h2>
+    <h2><span th:text="${totalPrice}">0.00</span></h2>
+</div>
+<br/>
+<form action="products" method="get">
+    <button type="submit">Show product</button>
+</form>
+</body>
+</html>

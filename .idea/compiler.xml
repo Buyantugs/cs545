@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Lesson2StudentFormDemo" />
+        <module name="Lesson2ValidationDemo" />
+        <module name="SpringBootServlet (1)" />
+        <module name="Lesson2StudentFormWithCommandDemo" />
+        <module name="SpringBootServlet (2)" />
+        <module name="Lesson2CarsDemo" />
+        <module name="Lesson2NavigationDemo" />
+        <module name="Lesson2PRGDemo" />
+        <module name="Lesson2PRGSolutionDemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SpringBootServlet" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Lesson2CarsDemo" options="-parameters" />
+      <module name="Lesson2NavigationDemo" options="-parameters" />
+      <module name="Lesson2PRGDemo" options="-parameters" />
+      <module name="Lesson2PRGSolutionDemo" options="-parameters" />
+      <module name="Lesson2StudentFormDemo" options="-parameters" />
+      <module name="Lesson2StudentFormWithCommandDemo" options="-parameters" />
+      <module name="Lesson2ValidationDemo" options="-parameters" />
+      <module name="SpringBootServlet (1)" options="-parameters" />
+      <module name="SpringBootServlet (2)" options="-parameters" />
+    </option>
+  </component>
+</project>

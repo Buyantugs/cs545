@@ -1,0 +1,28 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Add Product</title>
+</head>
+<body>
+
+<h3>Add Product</h3>
+
+<form th:object="${product}" th:action="@{/add}" method="post">
+
+  Serial: <input type="text" th:field="*{serial}" />
+  <span style="color:red" th:if="${#fields.hasErrors('serial')}" th:errors="*{serial}"></span>
+  <br />
+
+  Name: <input type="text" th:field="*{name}" />
+  <span style="color:red" th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></span>
+  <br />
+
+  Price: <input type="text" th:field="*{price}" />
+  <span style="color:red" th:if="${#fields.hasErrors('price')}" th:errors="*{price}"></span>
+  <br />
+
+  <input type="submit" value="Save" />
+</form>
+
+</body>
+</html>
