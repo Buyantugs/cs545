@@ -11,6 +11,7 @@
         <module name="SpringBootServlet (1)" />
         <module name="Lesson2StudentFormWithCommandDemo" />
         <module name="lab3-part1-2" />
+        <module name="Lesson4ErrorHandlingDemo" />
         <module name="SpringBootServlet (2)" />
         <module name="Lesson2CarsDemo" />
         <module name="Lesson2NavigationDemo" />
@@ -33,6 +34,7 @@
       <module name="Lesson2StudentFormWithCommandDemo" options="-parameters" />
       <module name="Lesson2ValidationDemo" options="-parameters" />
       <module name="Lesson4BackendDemo" options="-parameters" />
+      <module name="Lesson4ErrorHandlingDemo" options="-parameters" />
       <module name="SpringBootServlet (1)" options="-parameters" />
       <module name="SpringBootServlet (2)" options="-parameters" />
       <module name="lab3-part1-2" options="-parameters" />

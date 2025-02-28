@@ -34,7 +34,14 @@ public class BookRepository {
     }
 
     public void save(Book book){
-        books.put(book.getIsbn(), book);
+        try{
+            books.put(book.getIsbn(), book);
+            System.out.println(book);
+        }
+        catch (Exception ex){
+            System.out.println(ex.getMessage());
+        }
+
     }
 
     public void update(Book book){

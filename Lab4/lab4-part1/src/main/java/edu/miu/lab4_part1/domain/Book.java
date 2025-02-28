@@ -1,10 +1,21 @@
 package edu.miu.lab4_part1.domain;
 
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotBlank;
+
 public class Book {
+
+    @NotBlank(message="ISBN is required")
     private String isbn;
+
+    @NotBlank(message = "Author is required")
     private String author;
+
+    @NotBlank(message = "Title is required")
     private String title;
 
+    @NotBlank(message = "Price is required")
+    @Min(value=1, message = "Price must be greater than 0")
     private double price;
 
     public Book(String isbn, String author, String title, double price) {
