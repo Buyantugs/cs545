@@ -1,4 +1,4 @@
-package edu.miu.lab3_part12;
+package edu.miu.lab4_part1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

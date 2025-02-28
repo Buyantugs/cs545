@@ -1,4 +1,4 @@
-package edu.miu.lab3_part12;
+package edu.miu.lab4_part1.domain;
 
 public class Book {
     private String isbn;

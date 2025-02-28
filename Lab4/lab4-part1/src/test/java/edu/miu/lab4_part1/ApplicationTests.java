@@ -1,5 +1,6 @@
-package edu.miu.lab3_part12;
+package edu.miu.lab4_part1;
 
+import edu.miu.lab4_part1.domain.Book;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import org.junit.jupiter.api.BeforeAll;
