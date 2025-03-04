@@ -7,18 +7,26 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Lesson4BackendDemo" />
+        <module name="lab4-part1" />
+        <module name="Lab4-part2" />
         <module name="Lesson4ErrorHandlingDemo" />
-        <module name="lab3-part1-2" />
         <module name="Lesson4ValidationDemo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lab3-part1-2" target="17" />
+      <module name="Lab3-part3n4" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Lab3-part3n4" options="-parameters" />
+      <module name="Lab4-part2" options="-parameters" />
       <module name="Lesson4BackendDemo" options="-parameters" />
       <module name="Lesson4ErrorHandlingDemo" options="-parameters" />
       <module name="Lesson4ValidationDemo" options="-parameters" />
       <module name="lab3-part1-2" options="-parameters" />
+      <module name="lab4-part1" options="-parameters" />
     </option>
   </component>
 </project>

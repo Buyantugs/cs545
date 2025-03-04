@@ -18,7 +18,7 @@ class ApplicationTests {
 	public static void setup() {
 		RestAssured.port = Integer.valueOf(8080);
 		RestAssured.baseURI = "http://localhost";
-		RestAssured.basePath = "/lab3";
+		RestAssured.basePath = "/lab4";
 	}
 
 	@Test

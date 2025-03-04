@@ -31,7 +31,7 @@ public class BookController {
 
             Book book=bookService.getBook(isbn);
 
-            int q=1/0;
+            //int q=1/0;
 
             if(book==null){
                 return new ResponseEntity<CustomErrorType>(new CustomErrorType("Book with isbn="+isbn+" is not available!"),HttpStatus.NOT_FOUND);
@@ -43,7 +43,7 @@ public class BookController {
     public ResponseEntity<?> addBook(@Valid @RequestBody Book book){
 
         try{
-            System.out.println("Controller=> "+book);
+            //System.out.println("Controller=> "+book);
             bookService.addBook(book);
 
             return new ResponseEntity<Book>(book, HttpStatus.OK);
