@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Lesson5ContactRestClient" />
+        <module name="lab5-part2" />
+        <module name="Lesson5MongoDemoModified" />
+        <module name="Lab5_part3" />
+        <module name="Lesson5MongoDemo" />
+        <module name="Lesson5RestWithMongoDemo" />
+        <module name="Lesson5RestWithMongoAndDTODemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Lab5-part3" target="17" />
+      <module name="Lesson5MongoDemo (1)" target="17" />
+      <module name="Lesson5MongoDemo (2)" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Lab5-part3" options="-parameters" />
+      <module name="Lab5_part3" options="-parameters" />
+      <module name="Lesson5ContactRestClient" options="-parameters" />
+      <module name="Lesson5MongoDemo" options="-parameters" />
+      <module name="Lesson5MongoDemo (1)" options="-parameters" />
+      <module name="Lesson5MongoDemo (2)" options="-parameters" />
+      <module name="Lesson5MongoDemoModified" options="-parameters" />
+      <module name="Lesson5RestWithMongoAndDTODemo" options="-parameters" />
+      <module name="Lesson5RestWithMongoDemo" options="-parameters" />
+      <module name="lab5-part2" options="-parameters" />
+    </option>
+  </component>
+</project>

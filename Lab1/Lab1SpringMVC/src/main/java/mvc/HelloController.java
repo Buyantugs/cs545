@@ -9,7 +9,7 @@ import java.util.Map;
 
 @Controller
 public class HelloController {
-    @RequestMapping("/calc")
+    @RequestMapping("/calc1")
     public ModelAndView mycalc( @RequestParam(value="num1") String firstNum,
                         @RequestParam(value="num2") String secondNum,
                         @RequestParam(value="op") String operation) {
@@ -17,7 +17,6 @@ public class HelloController {
         String result= Calculator.calculate(Float.parseFloat(firstNum),Float.parseFloat(secondNum),operation);
 
         Map<String, Object> params = new HashMap<>();
-
 
         params.put("num1", firstNum);
         params.put("num2", secondNum);

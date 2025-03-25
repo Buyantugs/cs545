@@ -16,10 +16,15 @@
         <option value="$PROJECT_DIR$/Lab4/lab4-part1/pom.xml" />
         <option value="$PROJECT_DIR$/Lab4/Lesson4BackendDemo/pom.xml" />
         <option value="$PROJECT_DIR$/Lab4/Lesson4ErrorHandlingDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Lab6/Lesson6WebfluxDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Lab6/Lesson6WebSocketDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Lab6/Lesson6WebSocketChatDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Lab6/Lab6-part1/pom.xml" />
+        <option value="$PROJECT_DIR$/Lab6/Lab6-part2/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_23" default="true" project-jdk-name="openjdk-20" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="openjdk-20" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

@@ -15,5 +15,15 @@
     <file url="file://$PROJECT_DIR$/Lab4/Lesson4BackendDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Lab4/Lesson4ErrorHandlingDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Lab4/lab4-part1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lab6/Lab6-part1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lab6/Lab6-part1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lab6/Lab6-part2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lab6/Lab6-part2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lab6/Lesson6WebSocketChatDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lab6/Lesson6WebSocketChatDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lab6/Lesson6WebSocketDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lab6/Lesson6WebSocketDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lab6/Lesson6WebfluxDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lab6/Lesson6WebfluxDemo/src/main/resources" charset="UTF-8" />
   </component>
 </project>

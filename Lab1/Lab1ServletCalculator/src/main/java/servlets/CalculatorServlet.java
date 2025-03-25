@@ -95,7 +95,7 @@ public class CalculatorServlet extends HttpServlet {
                 "            <th>First</th>\n" +
                 "            <th>Operation</th>\n" +
                 "            <th>Second</th>\n" +
-                "            <th>Result</th>\n" +
+                "            <th>result</th>\n" +
                 "        </tr>");
 
         for (MyObject myObject : listCalc) {
