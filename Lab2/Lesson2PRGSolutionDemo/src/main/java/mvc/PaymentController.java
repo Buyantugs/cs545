@@ -21,21 +21,20 @@ public class PaymentController {
                                        @RequestParam(value="creditcardnumber") String creditCardNumber,
                                        RedirectAttributes redirectAttributes) {
         System.out.println("process order from "+name+" with credit card: "+creditCardNumber);
-        //Map<String, Object> params = new HashMap<>();
         redirectAttributes.addFlashAttribute( "name", name);
         redirectAttributes.addFlashAttribute( "creditcardnumber", creditCardNumber);
         return new ModelAndView("redirect:thankyou");
     }
     @GetMapping("/payment")
     public ModelAndView enterCard() {
-        //Map<String, Object> params = new HashMap<>();
-        return new ModelAndView("payment");
+        Map<String, Object> params = new HashMap<>();
+        return new ModelAndView("payment", params);
     }
 
     @GetMapping("/thankyou")
     public ModelAndView thankYou() {
-        //Map<String, Object> params = new HashMap<>();
-        return new ModelAndView("thankyou");
+        Map<String, Object> params = new HashMap<>();
+        return new ModelAndView("thankyou", params);
     }
 
 }

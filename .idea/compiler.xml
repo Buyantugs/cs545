@@ -10,11 +10,14 @@
         <module name="Lesson2ValidationDemo" />
         <module name="SpringBootServlet (4)" />
         <module name="SpringBootServlet (1)" />
+        <module name="Lab5_part3" />
         <module name="SpringBootServlet (3)" />
         <module name="SpringBootServlet (2)" />
         <module name="Lesson2NavigationDemo" />
         <module name="Lesson2PRGSolutionDemo" />
+        <module name="SpringBootJDBC" />
         <module name="SpringBootReactive" />
+        <module name="lab5-part2" />
         <module name="Lesson2StudentFormWithCommandDemo" />
         <module name="lab3-part1-2" />
         <module name="Lesson4ErrorHandlingDemo" />
@@ -25,6 +28,12 @@
         <module name="lab4-part1" />
         <module name="Lab6-part1" />
       </profile>
+      <profile name="Annotation profile for SpringBootServlet" enabled="true">
+        <sourceOutputDir name="../Lab7BooksGraphQLSolution/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../Lab7BooksGraphQLSolution/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringBootServlet (5)" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="SpringBootServlet" target="11" />
@@ -32,6 +41,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Lab5_part3" options="-parameters" />
       <module name="Lab6-part1" options="-parameters" />
       <module name="Lab6-part2" options="-parameters" />
       <module name="Lesson2CarsDemo" options="-parameters" />
@@ -43,13 +53,16 @@
       <module name="Lesson2ValidationDemo" options="-parameters" />
       <module name="Lesson4BackendDemo" options="-parameters" />
       <module name="Lesson4ErrorHandlingDemo" options="-parameters" />
+      <module name="SpringBootJDBC" options="-parameters" />
       <module name="SpringBootReactive" options="-parameters" />
       <module name="SpringBootServlet (1)" options="-parameters" />
       <module name="SpringBootServlet (2)" options="-parameters" />
       <module name="SpringBootServlet (3)" options="-parameters" />
       <module name="SpringBootServlet (4)" options="-parameters" />
+      <module name="SpringBootServlet (5)" options="-parameters" />
       <module name="lab3-part1-2" options="-parameters" />
       <module name="lab4-part1" options="-parameters" />
+      <module name="lab5-part2" options="-parameters" />
     </option>
   </component>
 </project>
