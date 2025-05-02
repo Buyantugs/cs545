@@ -5,10 +5,14 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
+@CrossOrigin(origins = "*")
 @RestController
+
 public class BankController {
 
     Map<Integer, BankAccount> bankAccounts=new HashMap<Integer, BankAccount>();
@@ -19,6 +23,18 @@ public class BankController {
         bankAccounts.put(bankAccount.getAccountNumber(), new BankAccount(bankAccount.getAccountNumber(), bankAccount.getAccountHolder()));
         return new ResponseEntity<BankAccount>(bankAccount, HttpStatus.OK);
     }
+
+    @GetMapping("/getAccounts")
+    public ResponseEntity<?> getAccounts() {
+
+        if (bankAccounts.isEmpty()) {
+            return new ResponseEntity<CustomErrorType>(new CustomErrorType("The bank account is empty!"), HttpStatus.NOT_FOUND);
+        }
+
+        List<BankAccount> accounts = new ArrayList<>(bankAccounts.values());
+        return new ResponseEntity<List<BankAccount>>(accounts, HttpStatus.OK);
+    }
+
 
     @GetMapping("/getAccount/{accNumber}")
     public ResponseEntity<?> getAccount(@PathVariable Integer accNumber){

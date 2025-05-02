@@ -14,6 +14,7 @@
         <module name="SpringBootServlet (3)" />
         <module name="SpringBootServlet (2)" />
         <module name="Lesson2NavigationDemo" />
+        <module name="Lab3-part3n4" />
         <module name="Lesson2PRGSolutionDemo" />
         <module name="SpringBootJDBC" />
         <module name="SpringBootReactive" />
@@ -39,6 +40,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Lab3-part3n4" options="-parameters" />
       <module name="Lab5_part3" options="-parameters" />
       <module name="Lab6-part1" options="-parameters" />
       <module name="Lab6-part2" options="-parameters" />
